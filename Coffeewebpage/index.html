@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main{
+        height: 100vh;
+        width: 100vw;
+        background-color:#2f271ffa;
+        border-radius: 40px;
+    }
+    .navigation{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 100px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        
+    }
+    nav a{
+             padding-top: 12px;
+             font-weight: 900px;
+             text-decoration: none;
+             letter-spacing: 1px;
+             
+        }
+        #navbutton{
+            border-radius: 14px;
+            border: none;
+            background-color:#A0522D;
+            color: white;
+            font-size: 21px;
+            padding: 10px 20px;
+        }
+        #left{
+            width: 50%;
+             padding-left: 100px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 100px;
+            
+            line-height: 1.2;
+        }
+        #right{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            padding-top: 100px;
+
+        }
+        .container{
+            display: flex;
+            align-items: center;
+        
+            flex-direction: row;
+        }
+       #left>h1{
+            font-size: 75px;
+        }
+        #left>p{
+            font-size: 23px;
+            color: whitesmoke;
+        }
+        #explore{
+            border-radius: 3px;
+            border: none;
+            background-color:#A0522D;
+            color: white;
+            font-size: 23px;
+            padding: 10px 20px;
+            border-radius: 12px;
+            box-shadow: 2px 2px 6px ;
+        }
+        #order{
+            border-radius: 3px;
+            border:1px solid whitesmoke;
+            font-size: 23px;
+            padding: 10px 20px;
+            background: transparent;
+            color: whitesmoke;
+            border-radius: 12px;
+            margin: 30px;
+            box-shadow: 2px 2px 5px;
+        }
+        #left::first-line{
+            color:whitesmoke;
+        }
+        #h2{
+            color: #ab694a;
+        }
+        a{
+            font-size: 22px;
+            color: whitesmoke;
+            font-family: monospace;
+        }
+        h2{
+            color: #ab694a;
+            margin-top: 14px;
+            margin-right: 130px;
+            font-size: 35px;
+            font-family: URW Chancery L, cursive;
+        }
+        
+</style>
+<body>
+    <div class="main">
+        <div class="navigation">
+        <nav>
+            <h2> <i class="ri-drinks-line"></i>AD Cafe</h2>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">OurProduct</a>
+            <a href="">Category</a>
+            <a href="">Contact Us</a>
+            <button id="navbutton">
+                Register <i class="ri-arrow-right-up-line"></i>
+            </button>
+        </nav>
+        </div>
+        <div class="container">
+        <div id="left">
+         <h1>Enjoy The Most</h1>
+         <h1 id="h2">Delicious Coffee</h1>
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Corrupti atque maiores quisquam officiis neque. Earum deserunt ullam <br>ipsum hic iusto voluptatum, doloremque laudantium exercitationem,<br> perspiciatis quidem fugiat natus consectetur quaerat?</p>
+         <button id="explore">Explore <i class="ri-arrow-right-up-line"></i></button>
+         <button id="order">Order Coffee <i class="ri-drinks-line"></i></button>
+        </div>
+        <div id="right">
+       <img src="https://static.vecteezy.com/system/resources/thumbnails/021/049/268/small_2x/3d-realistic-coffee-cup-coffee-cup-cartoon-free-png.png" alt="">
+        
+    </div>
+    </div>
+</div>
+</body>
+</html>
