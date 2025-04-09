@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        color: aliceblue;
+      }
+      #page {
+        background-image:url(https://images.unsplash.com/photo-1742740981372-39252206c52d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 90px;
+      }
+      h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 80px;
+        font-weight: 500;
+        letter-spacing: 27px;
+      }
+      form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        margin-top: 45px;
+        width: 30vw;
+    
+      }
+      input{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 12px;
+        border: none;
+        width: 80%;
+      }
+      button{
+        padding:8px 16px ;
+        border-radius: 10px;
+        border: none;
+      }
+      a{
+        color:whitesmoke;
+       text-decoration: none;
+      }
+      h2{
+          margin-top: 70px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <h1>WELCOME</h1>
+      <form>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password"></span>
+        <button>Login</button>
+        <a href="">forgot your password?</a>
+        <h2>Don't you have account?</h2>
+        <button id="bottom">Sign Up</button>
+    
+      </form>
+  </body>
+</html>
