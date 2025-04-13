@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        #main{
+            height: 100%;
+            width: 100%;
+            background-image: url(https://images.unsplash.com/photo-1665832102316-9fd8e8f77c88?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: top;
+            
+        }
+        #overlay{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(179, 176, 176, 0.432);
+        }
+        #nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 15px 30px;
+        }
+        #nav #links{
+            display: flex;
+            gap: 60px;
+        }
+        #nav a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 2px;
+            color: rgba(0, 0, 0, 0.781);
+        }
+        a:hover{
+           background-color: rgba(255, 0, 0, 0.594);
+           border-radius: 2px;
+        
+        }
+        #nav h1{
+            font-size: 35px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            color: rgba(0, 0, 0, 0.781);
+        }
+        #atext h1{
+            margin-top: 270px;
+            margin-left: 200px;
+            font-size: 90px;
+            letter-spacing: 2px;
+            color: rgba(255, 0, 0, 0.897);
+        }
+        #btext h1{
+            margin-left:150px ;
+            font-size: 90px;
+            letter-spacing: 2px;
+            margin-top: -20px;
+            color: rgba(0, 0, 0, 0.781);;
+        }
+        #btext p{
+            margin-left: 120px;
+            letter-spacing: 1px;
+            margin-top: 12px;
+        }
+        #btn{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            height: 10px;
+        }
+        #btn button{
+            margin-right: 200px;
+            margin-bottom: 90px;
+            padding: 12px 32px;
+            border-radius: 17px;
+            border: none;
+            color:white;
+            background-color: rgba(0, 0, 0, 0.781);
+        }
+        #btn button:hover{
+            background-color: black;
+        }
+        #main2{
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+        #overlay2{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(179, 176, 176, 0.432);
+        }
+        #overlay3{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(179, 176, 176, 0.454);
+        }
+        #img1{
+            height: 100%;
+            width: 50%;
+            background-image: url(https://images.unsplash.com/photo-1726591383648-5b5cbe1da1a2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: top;
+        }
+        #img2{
+            height: 100%;
+            width: 50%;
+            background-image: url(https://images.unsplash.com/photo-1737305807949-4f529ca8ffa1?q=80&w=1848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: center;
+        }
+        #overlay2 p{
+            padding-top: 340px;
+            padding-left: 15px;
+            color: rgba(0, 0, 0, 0.781);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+      <div id="overlay">
+         <div id="nav">
+            <h1>DOLENGA</h1>
+            <div id="links">
+                 <a href="">LADIES</a>
+                 <a href="">MEN</a>
+                 <a href="">KIDS</a>
+                 <a href="">HOME</a>
+            </div>
+         </div>
+         <div id="atext">
+            <h1>DOLENGA</h1>
+         </div>
+         <div id="btext">
+            <h1>WEAR</h1>
+            <p>Lorem ipsum dolor sit amet consectetur Perspiciatis <br>debitis nobis in doloremque.</p>
+         </div>
+         <div id="btn">
+            <button>EXPLORE</button>
+         </div>
+      </div>
+    </div>
+    <div id="main2">
+        <div id="img1">
+            <div id="overlay2">
+                <p>Lorem ipsum dolor sit amet consectetur Lorem. <br>elit Lorem, ipsum dolor.. Facere, <br>Lorem ipsum dolor sit amet.</p>
+                
+             </div>
+         </div>
+         <div id="img2">
+            <div id="overlay3">
+
+            </div>
+         </div>
+    </div>
+</body>
+</html>
