@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .grid{
+            height: 300px;
+            width: 300px;
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-areas: 
+            "a a ."
+            "a a c"
+            "b . c";
+            gap: 1rem;
+        }
+        .a{
+            grid-area: a;
+            background-color: red;
+        }
+        .b{
+            grid-area: b;
+            background-color: blue;
+        }
+        .c{
+            grid-area: c;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+</body>
+</html>

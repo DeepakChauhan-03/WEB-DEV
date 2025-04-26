@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            height: 100%;
+            width: 100%;
+            background-color: rgba(255, 192, 203, 0.468);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 120px;
+        }
+        .main .left{
+            height: 350px;
+            width: 400px;
+            background-color: white;
+            border-radius: 38px;
+            overflow: hidden;
+            padding: 7px;
+        }
+        .main .right{
+            height: 350px;
+            width: 400px;
+            
+            border-radius: 39px;
+        }
+       #pic{
+            height: 80%;
+            background-image: url(https://images.unsplash.com/photo-1744024450738-b040cffc7ff9?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: top;
+            border-radius:38px ;
+           
+        }
+        #text{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 15px;
+            padding-right: 15px;
+            align-items: center;
+            height: 80px;
+            color: rgba(0, 0, 0, 0.847);
+        }
+        #text button{
+            height: fit-content ;
+            width: fit-content;
+            padding: 9px 27px;
+            border-radius: 17px;
+            border: none;
+            background-color: rgba(0, 0, 255, 0.824);
+            color: white;
+            letter-spacing: 1px;
+        }
+        .right{
+            height: 100%;
+            background-image: url(https://images.unsplash.com/photo-1744024450738-b040cffc7ff9?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            background-position: top;
+            border-radius:38px ;
+           display: flex;
+           align-items: end;
+           border: 7px solid white;
+        }
+    .main .right #text #btn{
+        background-color: rgba(255, 255, 255, 0.217);
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+             <div id="pic"></div>
+             <div id="text">
+                <span>
+                    <h2>Dolomites,</h2>
+                    <h5>Italy</h5>
+                </span>
+                <button>Directions</button>
+             </div>
+        </div>
+        <div class="right">
+            <div id="text">
+                <span>
+                    <h2>Dolomites,</h2>
+                    <h5>Italy</h5>
+                </span>
+                <button id="btn">Directions</button>
+             </div>
+             
+        </div>
+    </div>
+</body>
+</html>

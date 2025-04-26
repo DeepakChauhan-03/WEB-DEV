@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main1{
+            height: 100%;
+            width: 100%;
+            
+        }
+        .main1 nav{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .main1 .right{
+            display: flex;
+            gap: 50px;
+            
+        }
+        .main1 .right button{
+            padding: 7px 15px;
+            border: 1px solid black;
+            background-color: transparent;
+        }
+        .main1 .middle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .main1 .middle h1{
+            font-size: 60px;
+            letter-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main1">
+        <nav>
+            <div class="left">
+              <h1>LO</h1>
+             </div>
+            <div class="right">
+               <a href="">ABOUT</a>
+               <a href="">ARTICLES</a>
+               <button>SUBSCRIBE</button>
+            </div>
+        </nav>
+        <div class="middle">
+            <h1>LOMBOK</h1>
+            <h3>HOLISTIC HEALTH</h3>
+        </div>
+    </div>
+</body>
+</html>
