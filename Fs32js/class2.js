@@ -12,8 +12,15 @@
 // let a = prompt("Enter Number");
 //  a = Number(a);
 
-let a = prompt("Enter number");
-a = Number(a);
-if(typeof a === "string"){
-    console.log("Error");
+// let a = prompt("Enter number");
+// a = Number(a);
+// if(typeof a === "string"){
+//     console.log("Error");
+// }
+
+let input = prompt("Enter a number");
+if (input !== null && input.trim() !== "") {
+    console.log("You entered a string");
+} else {
+    console.log("Invalid input");
 }
