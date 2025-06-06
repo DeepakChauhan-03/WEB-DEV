@@ -210,3 +210,84 @@ margin-left: 23px;
     font-size: 25px;
 
 }
+/* Third page */
+#main3{
+    height: 100vh;
+    width: 100vw;
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#left3{
+    height: 80%;
+    width: 52%;
+    background-color: red;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#log{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+#log>i{
+    color:white;
+    font-size: 25px;
+
+}
+#nav3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+#dabb3{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#uperbtn13{
+     height: 26px;
+    width: 120px;
+    border-radius: 25px;
+    border: 1px solid black;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-weight: 100;
+    margin-top: 23px;
+}
+#uperbtn23{
+     height: 26px;
+    width: 120px;
+    border-radius: 25px;
+    border: 1px solid black;
+    color:white;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    font-weight: 100;
+    margin-top: 23px;
+}
+
+#leftdab{
+    height: 80%;
+    width: 99%;
+    background: teal;
+}
+#right3{
+    height: 70%;
+    width: 38%;
+    background-color: aqua;
+}
