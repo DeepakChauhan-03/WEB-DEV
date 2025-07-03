@@ -27,6 +27,10 @@ html,body{
    gap: 4vw;
    align-items: center;
 }
+.nav-part2 h4:hover{
+    color:lightseagreen ;
+
+}
 .nav h2{
     font-size: 2vw;
     font-weight: 700;
@@ -43,7 +47,7 @@ html,body{
     background: lightseagreen;
     border: none;
     font-weight: 600;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .content{
@@ -80,7 +84,7 @@ html,body{
     background: lightseagreen;
     border: none;
     font-weight: 700;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 .right{
     height: 100%;
@@ -141,7 +145,7 @@ html,body{
     .content button{
         padding: 4vw 10vw;
         font-size: 3.5vw;
-        border-radius: 28px;
+        border-radius: 10px;
     }
     .right{
         width: 100%;
