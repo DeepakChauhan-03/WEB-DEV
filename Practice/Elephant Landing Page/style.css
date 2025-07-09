@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scroll {
+  height: 400px;
+  width: 70%;
+  background: pink;
+  border: 2px solid black;
+   overflow-x:scroll; /*enable horizontal scroll */
+  overflow-y: hidden;
+  white-space: nowrap; /* keep children in one line */
+scrollbar-width: none; 
+}
+.scontent {
+  width: 2000px;
+  height: 100%;
+  background: linear-gradient(to right, rgb(166, 255, 23), rgb(58, 199, 224));
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
